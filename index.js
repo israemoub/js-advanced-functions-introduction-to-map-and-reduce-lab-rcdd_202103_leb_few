@@ -57,3 +57,17 @@ function reduceToTotal(sourceArray, startingPoint) {
 }}
 reduceToTotal([7,5,8]);
 
+//
+
+function reduceToAllTrue(b){
+  let r=true;
+  for(let j=0; j<b.length; j++){
+    if(!b[j]){
+     r=false;
+    }
+}
+  return r;
+}
+reduceToAllTrue(b)
+let b2=[1, 2, true, "razmatazz", false];
+reduceToAllTrue(b2)
