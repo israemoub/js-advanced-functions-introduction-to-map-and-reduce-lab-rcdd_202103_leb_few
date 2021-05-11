@@ -10,7 +10,7 @@ console.log(negativeList);
 ///
 function mapToNegativize(sourceArray) {
   for (let i = 0; i < sourceArray.length; i++) { // make i local
-    sourceArray[i] *= -1; // negate the array item
+    sourceArray[i] =* -1; // negate the array item
   }
   return sourceArray; // return the manipulated array
 }
@@ -51,8 +51,9 @@ console.log([5,7,8]);
 
 function reduceToTotal(sourceArray, startingPoint) {
   let total = 0;
-  for (let i=0; i<sourceArray.length; i++)
+  for (let i=0; i<sourceArray.length; i++) {
   total += sourceArray[i];
   return total;
-}
+}}
 reduceToTotal([7,5,8]);
+
